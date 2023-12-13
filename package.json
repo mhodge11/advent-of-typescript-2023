@@ -1,0 +1,36 @@
+{
+  "name": "@advent-of-typescript/2023",
+  "version": "1.0.0",
+  "description": "Repo for Advent of TypeScript 2023",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "day-1": "bun run src/01/index.ts",
+    "day-2": "bun run src/02/index.ts",
+    "day-3": "bun run src/03/index.ts",
+    "day-4": "bun run src/04/index.ts",
+    "day-5": "bun run src/05/index.ts",
+    "day-6": "bun run src/06/index.ts",
+    "day-7": "bun run src/07/index.ts",
+    "day-8": "bun run src/08/index.ts",
+    "day-9": "bun run src/09/index.ts",
+    "day-10": "bun run src/10/index.ts",
+    "day-11": "bun run src/11/index.ts",
+    "day-12": "bun run src/12/index.ts",
+    "day-13": "bun run src/13/index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "advent of typescript"
+  ],
+  "author": "Micah Hodge <micahhodgeutk@icloud.com> (https://github.com/mhodge11)",
+  "license": "BSD-3-Clause",
+  "repository": "",
+  "devDependencies": {
+    "bun-types": "latest",
+    "type-testing": "^0.2.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
