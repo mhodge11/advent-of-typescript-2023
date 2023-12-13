@@ -5,6 +5,7 @@
   "module": "src/index.ts",
   "type": "module",
   "scripts": {
+    "describe": "bun run src/index.ts",
     "day-1": "bun run src/01/index.ts",
     "day-2": "bun run src/02/index.ts",
     "day-3": "bun run src/03/index.ts",
@@ -21,7 +22,8 @@
   },
   "keywords": [
     "typescript",
-    "advent of typescript"
+    "advent of typescript",
+    "advent"
   ],
   "author": "Micah Hodge <micahhodgeutk@icloud.com> (https://github.com/mhodge11)",
   "license": "BSD-3-Clause",
@@ -32,5 +34,8 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
   }
 }
