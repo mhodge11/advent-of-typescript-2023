@@ -8,6 +8,7 @@ type Enumerate<
 > = Acc["length"] extends N
   ? Acc[number]
   : Enumerate<N, [...Acc, Acc["length"]]>;
+  
 type DayCounter<T extends number, U extends number> =
   | Exclude<Enumerate<U>, Enumerate<T>>
   | U;
